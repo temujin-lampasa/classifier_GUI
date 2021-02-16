@@ -991,7 +991,7 @@
      <widget class="QWidget" name="widget_2" native="true">
       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,0,1">
        <item>
-        <widget class="QGroupBox" name="groupBox_7">
+        <widget class="QGroupBox" name="CNN_groupBox">
          <property name="title">
           <string>Convolutions</string>
          </property>
@@ -1016,7 +1016,7 @@
               </widget>
              </item>
              <item row="0" column="1">
-              <widget class="QSpinBox" name="filters_3">
+              <widget class="QSpinBox" name="filters">
                <property name="minimum">
                 <number>1</number>
                </property>
@@ -1038,7 +1038,7 @@
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="QSpinBox" name="kernel_x_3">
+                 <widget class="QSpinBox" name="kernel_x">
                   <property name="toolTip">
                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;x&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                   </property>
@@ -1048,7 +1048,7 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QSpinBox" name="kernel_y_3">
+                 <widget class="QSpinBox" name="kernel_y">
                   <property name="toolTip">
                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;y&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                   </property>
@@ -1090,7 +1090,7 @@
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="QSpinBox" name="stride_x_3">
+                 <widget class="QSpinBox" name="stride_x">
                   <property name="toolTip">
                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;x&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                   </property>
@@ -1100,7 +1100,7 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QSpinBox" name="stride_y_3">
+                 <widget class="QSpinBox" name="stride_y">
                   <property name="toolTip">
                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;y&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                   </property>
@@ -1120,7 +1120,7 @@
               </widget>
              </item>
              <item row="3" column="1">
-              <widget class="QComboBox" name="padding_3">
+              <widget class="QComboBox" name="padding">
                <item>
                 <property name="text">
                  <string>valid</string>
@@ -1156,7 +1156,7 @@
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="QSpinBox" name="pool_x_3">
+                 <widget class="QSpinBox" name="pool_x">
                   <property name="toolTip">
                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;x&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                   </property>
@@ -1166,7 +1166,7 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QSpinBox" name="pool_y_3">
+                 <widget class="QSpinBox" name="pool_y">
                   <property name="toolTip">
                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;y&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                   </property>
@@ -1182,7 +1182,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="convolve_btn_3">
+           <widget class="QPushButton" name="show_feature_maps">
             <property name="maximumSize">
              <size>
               <width>999</width>
@@ -1198,9 +1198,9 @@
         </widget>
        </item>
        <item>
-        <widget class="QGroupBox" name="groupBox_9">
+        <widget class="QGroupBox" name="train_groupBox">
          <property name="title">
-          <string>Convolutions</string>
+          <string>Training</string>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_6">
           <item>
@@ -1237,7 +1237,7 @@
               </widget>
              </item>
              <item row="1" column="1">
-              <widget class="QLineEdit" name="learning_rate_4"/>
+              <widget class="QLineEdit" name="learning_rate"/>
              </item>
              <item row="2" column="0">
               <widget class="QLabel" name="label_13">
@@ -1247,7 +1247,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QLineEdit" name="batch_size_4"/>
+              <widget class="QLineEdit" name="batch_size"/>
              </item>
              <item row="3" column="0">
               <widget class="QLabel" name="label_15">
@@ -1257,7 +1257,7 @@
               </widget>
              </item>
              <item row="3" column="1">
-              <widget class="QLineEdit" name="epochs_4"/>
+              <widget class="QLineEdit" name="epochs"/>
              </item>
              <item row="4" column="0">
               <widget class="QLabel" name="label_32">
@@ -1267,7 +1267,7 @@
               </widget>
              </item>
              <item row="4" column="1">
-              <widget class="QComboBox" name="optimizer_4">
+              <widget class="QComboBox" name="optimizer">
                <property name="currentText">
                 <string>SGD</string>
                </property>
@@ -1311,7 +1311,7 @@
              </size>
             </property>
             <property name="text">
-             <string>Show feature maps</string>
+             <string>Train</string>
             </property>
            </widget>
           </item>
@@ -1319,7 +1319,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QGroupBox" name="groupBox_6">
+        <widget class="QGroupBox" name="generation_groupBox">
          <property name="title">
           <string>Generation</string>
          </property>
@@ -1332,7 +1332,7 @@
            </widget>
           </item>
           <item row="1" column="0">
-           <widget class="QPushButton" name="pushButton">
+           <widget class="QPushButton" name="generate">
             <property name="palette">
              <palette>
               <active>
