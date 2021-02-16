@@ -1008,16 +1008,16 @@
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="probability_label">
+              <widget class="QLabel" name="prediction_label">
                <property name="text">
-                <string>Probability:</string>
+                <string>Prediction:</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="prediction_label">
+              <widget class="QLabel" name="probability_label">
                <property name="text">
-                <string>Prediction:</string>
+                <string>Probability:</string>
                </property>
               </widget>
              </item>
