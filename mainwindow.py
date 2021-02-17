@@ -1095,7 +1095,7 @@ class Ui_MainWindow(object):
         self.clear_btn.setText(_translate("MainWindow", "Clear"))
         self.label_3.setText(_translate("MainWindow", "Generated"))
         self.label_4.setText(_translate("MainWindow", "Prediction:"))
-        self.label_9.setText(_translate("MainWindow", "Probability"))
+        self.label_9.setText(_translate("MainWindow", "Probability:"))
         self.generate_btn.setText(_translate("MainWindow", "Generate"))
         self.CNN_groupBox.setTitle(_translate("MainWindow", "Convolutions"))
         self.label_20.setText(_translate("MainWindow", "filters"))
